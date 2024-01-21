@@ -103,12 +103,10 @@ a {
   min-height: calc(100vh - 60px);
   text-align: center;
 }
-.header__title {
+.header__title,
+.header .color {
   font-size: 4.8rem;
   font-weight: bold;
-}
-.header__title span {
-  display: block;
 }
 .header__text {
   margin-top: 2em;

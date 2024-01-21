@@ -36,7 +36,7 @@ a {
 	position: sticky;
 	top: 0;
 	left: 0;
-    padding: 0 1em;
+	padding: 0 1em;
 	background-color: #191825;
 	z-index: 50;
 
@@ -116,13 +116,10 @@ a {
 		text-align: center;
 	}
 
-	&__title {
+	&__title,
+	.color {
 		font-size: 4.8rem;
 		font-weight: bold;
-
-		span {
-			display: block;
-		}
 	}
 
 	&__text {
